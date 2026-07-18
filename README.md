@@ -9,6 +9,7 @@ An interactive Power BI dashboard tracking online sales performance, key KPIs, r
 ![Madhav Sales Dashboard](docs/dashboard.png)
 
 ---
+<img width="628" height="350" alt="Image" src="https://github.com/user-attachments/assets/b2b563e1-6457-401c-ad66-8da0791b4a55" />
 
 ## 🎯 Project Objective
 

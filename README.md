@@ -1,47 +1,36 @@
 # 📊 Madhav E-Commerce Sales Dashboard
 
-An interactive Power BI dashboard tracking online sales performance, key KPIs, regional trends, customer performance, and category metrics across India for **Madhav Store**.
+An interactive Power BI dashboard tracking online sales performance, key KPIs, regional trends, customer performance, and product category metrics across India for **Madhav Store**.
 
 ---
 
-## 🖼️ Dashboard Preview
+## 📥 Direct Downloads & Links
 
-![Madhav Sales Dashboard](docs/dashboard.png)
-
----
-<img width="628" height="350" alt="Image" src="https://github.com/user-attachments/assets/b2b563e1-6457-401c-ad66-8da0791b4a55" />
-
-## 🎯 Project Objective
-
-To assist the owner of Madhav Store in tracking and analyzing online sales across regions, payment modes, product categories, and customer segments to make data-driven business decisions.
+* 📄 **Download Power BI Report File**: [Madhav Ecommerce Sales Dashboard.pbix](https://github.com/Shreya-88/Madhav-Ecommerce-Sales-Dashboard/raw/main/Madhav%20Ecommerce%20Sales%20Dashboard.pbix)
+* 📂 **Source Repository**: [Shreya-88/Madhav-Ecommerce-Sales-Dashboard](https://github.com/Shreya-88/Madhav-Ecommerce-Sales-Dashboard)
 
 ---
 
-## 🔑 Key Metrics & Insights
+## 🎯 Project Overview
 
-- **Total Sales Amount**: ₹118K
+To assist the owner of Madhav Store in tracking and analyzing online sales data across regions, payment modes, product categories, and customer segments to drive revenue growth.
+
+---
+
+## 🔑 Key Dashboard Metrics
+
+- **Total Revenue**: ₹118K
 - **Total Profit**: ₹12K
 - **Total Quantity Sold**: 1K units
 - **Average Order Value (AOV)**: ₹33K
-- **Top Product Category**: **Clothing** accounted for **66%** of total order quantity, followed by Electronics (21%) and Furniture (13%).
-- **Preferred Payment Mode**: **Cash on Delivery (COD)** represented **44%** of sales, followed by UPI (22%) and Debit Card (10%).
-- **Peak Profit Month**: **November** generated the highest profit (~₹10K), while December faced a dip.
-- **Top Performing State**: **Maharashtra** generated the maximum sales revenue.
-- **Top Sub-Categories**: Printers and Sarees generated the highest profits.
+- **Top Product Category**: **Clothing** accounted for **66%** of total units sold.
+- **Preferred Payment Mode**: **Cash on Delivery (COD)** represented **44%** of orders, followed by UPI (22%).
+- **Top Performing State**: **Maharashtra** generated the maximum revenue among all states.
 
 ---
 
-## 🛠️ Data Architecture & Relationships
+## 🛠️ Tech Stack & Methods
 
-The report uses two main tables connected via `Order ID`:
-
-1. **`Orders` Table**: Contains order metadata (`Order ID`, `Order Date`, `CustomerName`, `State`, `City`).
-2. **`Details` Table**: Contains transaction line details (`Order ID`, `Amount`, `Profit`, `Quantity`, `Category`, `Sub-Category`, `PaymentMode`).
-
----
-
-## 🚀 How to Run This Project Locally
-
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/Shreya-88/Madhav-Ecommerce-Sales-Dashboard.git
+- **Tool**: Power BI Desktop
+- **Visuals Used**: Donut Charts, Stacked Bar Charts, Clustered Column Charts, KPI Cards, List Slicers
+- **Data Modeling**: Relationship between `Orders` and `Details` tables connected via `Order ID`<img width="628" height="350" alt="Image" src="https://github.com/user-attachments/assets/7a0cf218-e8d1-474e-b919-5f43a217ec7c" />
